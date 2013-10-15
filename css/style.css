@@ -16,7 +16,8 @@ body {
 	
 	background:url("lil_fiber.png");
 	
-	height:100%;
+	min-height:100%;
+	
 	-webkit-box-shadow: 0px 0px 5px rgba(50, 50, 50, 0.85);
 	-moz-box-shadow:    0px 0px 5px rgba(50, 50, 50, 0.85);
 	box-shadow:         0px 0px 5px rgba(50, 50, 50, 0.85);
@@ -26,6 +27,7 @@ body {
 
 #location-search {
 	padding-top:100px;
+	height:100%;
 }
 
 #overlay {
